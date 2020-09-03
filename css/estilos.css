@@ -463,3 +463,47 @@ footer {
         padding-top: 0;
     }
 }
+
+main.contacto {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+}
+
+h2.contacto {
+    color: #F5F8FF;
+    margin: 10vw;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+p.parrafo-contacto {
+    color: #F5F8FF;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    text-align: justify;
+}
+
+div.redes {
+    width: 100%;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    text-align: left;
+    margin-top: 50px;
+}
+
+main.contacto a.red {
+    text-decoration: none;
+    color: #F5F8FF;
+}
+
+main.contacto i {
+    color: #F5F8FF;
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
