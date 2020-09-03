@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'OldSchool Grotesk', sans-serif;
+    background-color: #F5F8FF;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Light.eot');
+    src: url('../fonts/OldschoolGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Light.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Light.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Light.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Light.svg#OldschoolGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Medium.eot');
+    src: url('../fonts/OldschoolGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Medium.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Medium.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Medium.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Medium.svg#OldschoolGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk Air';
+    src: url('../fonts/OldschoolGrotesk-Air.eot');
+    src: url('../fonts/OldschoolGrotesk-Air.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Air.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Air.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Air.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Air.svg#OldschoolGrotesk-Air') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Heavy.eot');
+    src: url('../fonts/OldschoolGrotesk-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Heavy.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Heavy.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Heavy.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Heavy.svg#OldschoolGrotesk-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Bold.eot');
+    src: url('../fonts/OldschoolGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Bold.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Bold.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Bold.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Bold.svg#OldschoolGrotesk-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Thin.eot');
+    src: url('../fonts/OldschoolGrotesk-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Thin.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Thin.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Thin.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Thin.svg#OldschoolGrotesk-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-Regular.eot');
+    src: url('../fonts/OldschoolGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-Regular.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-Regular.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-Regular.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-Regular.svg#OldschoolGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-ExtraBold.eot');
+    src: url('../fonts/OldschoolGrotesk-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-ExtraBold.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-ExtraBold.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-ExtraBold.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-ExtraBold.svg#OldschoolGrotesk-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Oldschool Grotesk';
+    src: url('../fonts/OldschoolGrotesk-ExtraLight.eot');
+    src: url('../fonts/OldschoolGrotesk-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OldschoolGrotesk-ExtraLight.woff2') format('woff2'),
+        url('../fonts/OldschoolGrotesk-ExtraLight.woff') format('woff'),
+        url('../fonts/OldschoolGrotesk-ExtraLight.ttf') format('truetype'),
+        url('../fonts/OldschoolGrotesk-ExtraLight.svg#OldschoolGrotesk-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+section.cont-general {
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+header {
+    width: 100%;
+    height: 400px;
+    padding: 10vw;
+    background-image: url(../img/1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+
+header h1 {
+    color: #F5F8FF;
+    font-size: 35px;
+}
+
+nav {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    padding: 35px 10vw;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #F5F8FF;
+    opacity: 0.9;
+}
+
+nav .logo {
+    height: 50px;
+    float: left;
+}
+
+nav input {
+    display: none;
+    z-index: -100;
+}
+
+nav .resto-nav {
+    width: 70%;
+}
+
+.menu {
+    float: right;
+    line-height: 60px;
+}
+
+.menu a {
+    color: #000;
+    text-decoration: none;
+    padding: 0;
+    padding-left: 10px;
+    transition: 0.4s;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menu a:hover {
+    text-decoration: line-through;
+    text-decoration-color: #F5F8FF;
+}
+
+.mostrar-menu-btn,
+.esconder-menu-btn {
+    transition: 0.4s;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    color: #000;
+}
+
+.esconder-menu-btn {
+    color: #F5F8FF;
+}
+
+i.fas.fa-times {
+    margin-right: 5vw;
+}
+
+.mostrar-menu-btn {
+    float: right;
+}
+
+
+.mostrar-menu-btn i {
+    line-height: 40px;
+}
+
+.mostrar-menu-btn:hover,
+.esconder-menu-btn:hover {
+    color: #325FE4;
+}
+
+#chk {
+    position: absolute;
+    z-index: -100;
+    background-color: #043264;
+    border-radius: 50%;
+}
+
+section.contenedor {
+    width: 100%;
+    padding: 50px 5vw;
+    padding-top: 0;
+}
+
+div.proyectos {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.proyecto {
+    width: 45%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+div.img-proyecto1 {
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.img-proyecto2 {
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.img-proyecto3 {
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.img-proyecto4 {
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+div.img-proyecto1::before{
+    content: "";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index: 10;
+}
+
+div.img-proyecto2::before{
+    content: "";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index: 10;
+}
+
+div.img-proyecto3::before{
+    content: "";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index: 10;
+}
+
+div.img-proyecto4::before{
+    content: "";
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.1;
+    z-index: 10;
+}
+
+div.proyecto .titulo-proyecto {
+    line-height: 600px;
+    color: #F5F8FF;
+}
+
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 50px 10vw;
+    padding-bottom: 5vw;
+}
+
+.footer-left {
+    width: 50%;
+    float: left;
+}
+
+.footer-right {
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+
+.footer-right i {
+    font-size: 20px;
+    color: #000;
+    transition: color 0.5s;
+}
+
+.footer-right i:hover {
+    color: #F5F8FF;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.footer-right a {
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px) {
+    /* Responsive Nav */
+
+    .mostrar-menu-btn,
+    .esconder-menu-btn {
+        display: block;
+        float: right;
+    }
+
+    nav {
+        padding: 25px 10vw;
+        height: 80px;
+        z-index: 1000;
+    }
+
+    nav .logo {
+        height: 30px;
+    }
+
+    .menu {
+        position: fixed;
+        width: auto;
+        height: auto;
+        background: #000;
+        right: -100%;
+        top: 0;
+        text-align: left;
+        padding: 80px 10vw;
+        padding-bottom: 30px;
+        line-height: normal;
+        transition: 0.5s;
+        font-size: 25px;
+        z-index: 100000;
+        border-bottom-left-radius: 10px;
+    }
+
+    .menu a {
+        display: block;
+        padding: 20px;
+        padding-right: 0;
+        color: #fff;
+        text-align: right;
+        font-size: 15px;
+    }
+
+    .menu a:hover,
+    .mostrar-menu-btn:hover,
+    .esconder-menu-btn:hover {
+        color: #28293D;
+    }
+
+
+    .esconder-menu-btn {
+        position: absolute;
+        line-height: 100px;
+        top: 0;
+        right: 7vw;
+    }
+
+    #chk:checked~.menu {
+        right: 0;
+    }
+}
+
+@media (min-width: 0) and (max-width: 700px) {
+    header {
+        height: auto;
+    }
+
+    div.proyectos {
+        display: block;
+    }
+
+    div.proyecto {
+        width: 100%;
+    }
+
+    footer {
+        padding-top: 0;
+    }
+}
