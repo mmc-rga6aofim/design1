@@ -142,13 +142,17 @@ header {
     background-position: center;
     background-size: cover;
     margin-bottom: 70px;
-    filter: grayscale(100%);
+    filter: grayscale(100%) contrast(140%);
+    transition: all 0.5s;
+}
+
+header:hover {
+    filter: none;
 }
 
 header h1 {
     color: #F5F8FF;
     font-size: 35px;
-    text-shadow: 1px 1px 10px #000;
 }
 
 nav {
