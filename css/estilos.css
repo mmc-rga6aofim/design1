@@ -6,7 +6,7 @@
 
 body {
     font-family: 'OldSchool Grotesk', sans-serif;
-    background-color: #F5F8FF;
+    background-color: #F5F1EC;
 }
 
 /* Fonts */
@@ -147,11 +147,11 @@ header {
 }
 
 header:hover {
-    filter: none;
+    filter: grayscale(5%) contrast(150%);
 }
 
 header h1 {
-    color: #F5F8FF;
+    color: #F5F1EC;
     font-size: 35px;
 }
 
@@ -159,17 +159,17 @@ nav {
     width: 100%;
     height: 90px;
     overflow: hidden;
-    padding: 30px 10vw;
+    padding: 32.5px 10vw;
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #F5F8FF;
+    background-color: #F5F1EC;
     opacity: 0.9;
     box-shadow: 0 0 10px #000 ;
 }
 
 nav .logo {
-    height: 30px;
+    height: 25px;
     float: left;
 }
 
@@ -188,7 +188,7 @@ nav .resto-nav {
 }
 
 .menu a {
-    color: #000;
+    color: #000;;
     text-decoration: none;
     padding: 0;
     padding-left: 10px;
@@ -200,7 +200,7 @@ nav .resto-nav {
 
 .menu a:hover {
     text-decoration: line-through;
-    text-decoration-color: #F5F8FF;
+    text-decoration-color: #F5F1EC;
 }
 
 .mostrar-menu-btn,
@@ -209,11 +209,11 @@ nav .resto-nav {
     font-size: 20px;
     cursor: pointer;
     display: none;
-    color: #000;
+    color: #000;;
 }
 
 .esconder-menu-btn {
-    color: #F5F8FF;
+    color: #F5F1EC;
 }
 
 i.fas.fa-times {
@@ -274,7 +274,7 @@ div.img-proyecto1 {
 }
 
 div.img-proyecto1:hover {
-    filter: none;
+    filter: grayscale(10%) contrast(130%);
 }
 
 div.img-proyecto2 {
@@ -285,13 +285,13 @@ div.img-proyecto2 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(100%) contrast(150%);
+    filter: grayscale(100%) contrast(150%);
     transition: all 0.5s;
 }
 
 div.img-proyecto2:hover {
-    filter: none;
+    filter: grayscale(5%) contrast(130%);
 }
 
 div.img-proyecto3 {
@@ -308,7 +308,7 @@ div.img-proyecto3 {
 }
 
 div.img-proyecto3:hover {
-    filter: none;
+    filter: grayscale(5%) contrast(130%);
 }
 
 div.img-proyecto4 {
@@ -325,32 +325,82 @@ div.img-proyecto4 {
 }
 
 div.img-proyecto4:hover {
-    filter: none;
+    filter: grayscale(5%) contrast(130%);
 }
 
-div.img-proyecto-hover {
+div.img-proyecto5 {
+    background-image: url(../img/5.jpg);
+    background-size: cover;
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #fff;
-    opacity: 0;
-    z-index: 10;
-    display: block;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%) contrast(140%);
+    filter: grayscale(100%) contrast(140%);
     transition: all 0.5s;
 }
 
-div.img-proyecto-hover:hover {
-    opacity: 0;
+div.img-proyecto5:hover {
+    filter: grayscale(5%) contrast(130%);
+}
+
+div.img-proyecto6 {
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%) contrast(140%);
+    filter: grayscale(100%) contrast(140%);
+    transition: all 0.5s;
+}
+
+div.img-proyecto6:hover {
+    filter: grayscale(5%) contrast(130%);
+}
+
+
+div.proyecto-largue {
+    width: 95%;
+    height: 500px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+div.img-proyecto7 {
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    -webkit-filter: grayscale(100%) contrast(140%);
+    filter: grayscale(100%) contrast(140%);
+    transition: all 0.5s;
+}
+
+div.img-proyecto7:hover {
+    filter: grayscale(5%) contrast(130%);
 }
 
 div.proyecto .titulo-proyecto {
     line-height: 600px;
-    color: #F5F8FF;
+    color: #F5F1EC;
+    z-index: 11;
+    text-shadow: 1px 1px 10px #000;;
+}
+
+div.proyecto-largue .titulo-proyecto {
+    line-height: 500px;
+    color: #fff;
     z-index: 11;
     text-shadow: 1px 1px 10px #000;
 }
+
 
 footer {
     width: 100%;
@@ -374,13 +424,13 @@ footer {
 
 .footer-right i {
     font-size: 20px;
-    color: #000;
+    color: #000;;
     transition: color 0.5s;
 }
 
 .footer-right i:hover {
-    color: #F5F8FF;
-    text-shadow: 1px 1px 1px #000;
+    color: #F5F1EC;
+    text-shadow: 1px 1px 1px #000;;
 }
 
 .footer-right a {
@@ -411,7 +461,7 @@ footer {
         position: fixed;
         width: auto;
         height: auto;
-        background: #000;
+        background: #000;;
         right: -100%;
         top: 0;
         text-align: left;
@@ -513,14 +563,14 @@ main.contacto {
 }
 
 h2.contacto {
-    color: #F5F8FF;
+    color: #F5F1EC;
     margin: 10vw;
     margin-bottom: 30px;
     font-size: 30px;
 }
 
 p.parrafo-contacto {
-    color: #F5F8FF;
+    color: #F5F1EC;
     margin-left: 30vw;
     margin-right: 30vw;
     text-align: justify;
@@ -536,12 +586,12 @@ div.redes {
 
 main.contacto a.red {
     text-decoration: none;
-    color: #F5F8FF;
+    color: #F5F1EC;
 }
 
 main.contacto i.fab,
 main.contacto i.far {
-    color: #F5F8FF;
+    color: #F5F1EC;
     font-size: 20px;
     margin-bottom: 25px;
     margin-right: 10px;
