@@ -142,7 +142,7 @@ header {
     background-position: center;
     background-size: cover;
     margin-bottom: 70px;
-    filter: grayscale(100%) contrast(140%);
+    filter: grayscale(5%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -268,8 +268,8 @@ div.img-proyecto1 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(70%) contrast(140%);
+    filter: grayscale(70%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -285,8 +285,8 @@ div.img-proyecto2 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(150%);
-    filter: grayscale(100%) contrast(150%);
+    -webkit-filter: grayscale(70%) contrast(150%);
+    filter: grayscale(70%) contrast(150%);
     transition: all 0.5s;
 }
 
@@ -302,8 +302,8 @@ div.img-proyecto3 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(70%) contrast(140%);
+    filter: grayscale(70%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -319,8 +319,8 @@ div.img-proyecto4 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(70%) contrast(140%);
+    filter: grayscale(70%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -336,8 +336,8 @@ div.img-proyecto5 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(80%) contrast(140%);
+    filter: grayscale(80%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -353,8 +353,8 @@ div.img-proyecto6 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(70%) contrast(140%);
+    filter: grayscale(70%) contrast(140%);
     transition: all 0.5s;
 }
 
@@ -378,8 +378,8 @@ div.img-proyecto7 {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    -webkit-filter: grayscale(100%) contrast(140%);
-    filter: grayscale(100%) contrast(140%);
+    -webkit-filter: grayscale(80%) contrast(140%);
+    filter: grayscale(80%) contrast(140%);
     transition: all 0.5s;
 }
 
